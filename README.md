@@ -1,5 +1,7 @@
 ## Read jar from blob console app
-This small console app allows download jars from database.
+Sample app for reading BLOB in Oracle DB.
+This small console app allows download jars from DB.
+
 
 ## How use
 #### Input:
