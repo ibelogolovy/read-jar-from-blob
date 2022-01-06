@@ -5,11 +5,20 @@ plugins {
 sourceCompatibility = 16
 targetCompatibility = 16
 
+
 group 'com.company'
 version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'com.company.Main'
+        )
+    }
 }
 
 dependencies {

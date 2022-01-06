@@ -4,7 +4,7 @@ This small console app allows download jars from database.
 ## How use
 #### Input:
 - database url
-- user name for database access
+- user login for database access
 - user password for database access
 - table name with database schema
 - jar column
@@ -19,4 +19,5 @@ Jar in ./output directory
 ## Setup
 ```
 ./gradlew build
+java -jar build/libs/read-jar-from-blob-1.0-SNAPSHOT.jar
 ```
