@@ -4,6 +4,13 @@ This small console app allows download jars from DB.
 
 
 ## How use
+The data is assumed to be stored as follows:
+
+| JAR Name  | File name (class) | Package name (path) | BLOB |
+| --------- | ------------- |  ------------- | ------------- |
+| App.jar  | Main.class | org/company/engine | (BLOB)
+| ...  | ...  |  ...  |  ...  |
+
 #### Input:
 - database url
 - user login for database access
